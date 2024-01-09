@@ -11,12 +11,11 @@ def pow_of_two_numbers(first_num: int, second_num: int) -> int:
 print(pow_of_two_numbers(2, 3))
 
 # Parnian
+def remain_of_two_numbers(num1 : int|float, num2: int|float) -> float:
+    return num1 % num2
 
-
-# def remain_of_two_numbers():
-#     pass
-
-
+#Example
+print(remain_of_two_numbers(10, 2))
 # Mohammad
 
 
